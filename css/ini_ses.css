@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#3058b0;
+}
+.cabeza{
+    background-color: white;
+    border: 3px solid;
+    border-color: rgba(178, 178, 178, .5);
+    
+}
+.barra_menu{
+    margin: 40px;
+    width: 899px;
+    float: right;
+    padding-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+.botones_menu li a{
+    background-color:white;
+    color: black;
+    text-decoration: none;
+    padding: 20px 50px;
+    display: block;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: black;
+}
+.botones_menu li a:hover{
+    background-color: black;
+    color: white;
+}
+.botones_menu > li{
+    float: left;
+}
+.botones_menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.botones_menu li:hover > ul{
+    display: block;
+}
+.contenido{
+    border: 3px solid;
+    border-color: rgba(178, 178, 178, .5);
+    margin: 100px auto;
+    width: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    
+}
+.Iniciar_Sesion{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0,0,0,.5);
+    border-radius: 12px;
+}
+.Iniciar_Sesion h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.Iniciar_Sesion .elemento label{
+    color: #fff;
+}
+.Iniciar_Sesion .elemento input{
+    width: 100;
+    padding:10px 0 ;
+    color: #fff;
+    background: solid;
+    border: none;
+}
+.Iniciar_Sesion .elemento input[type="submit"]{
+    background-color: palevioletred;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}
+.Iniciar_Sesion .elemento input:hover[type="submit"]{
+    background-color: #392ce8;
+}

@@ -1,0 +1,24 @@
+body{
+    background-color:#3058b0;
+}
+.contenido{
+    margin: 150px auto;
+    width: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+}
+.contenido h1{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 42px;
+}
+.contenido p{
+    color: rgba(0, 0, 0, 0.65);
+    text-align: justify;
+    font-size: 20px;
+}
+.motos_trabajo{
+    text-align: center;
+}

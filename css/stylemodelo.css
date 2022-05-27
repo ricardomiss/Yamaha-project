@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#3058b0;
+}
+.cabeza{
+    background-color: white;
+    border: 3px solid;
+    border-color: rgba(178, 178, 178, .5);
+    
+}
+.barra_menu{
+    margin: 40px;
+    width: 899px;
+    float: right;
+    padding-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+.botones_menu li a{
+    background-color:white;
+    color: black;
+    text-decoration: none;
+    padding: 20px 50px;
+    display: block;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: black;
+}
+.botones_menu li a:hover{
+    background-color: black;
+    color: white;
+}
+.botones_menu > li{
+    float: left;
+}
+.botones_menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.botones_menu li:hover > ul{
+    display: block;
+}
+.contenido{
+    border: 3px solid;
+    border-color: rgba(178, 178, 178, .5);
+    margin: 100px auto;
+    width: auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    
+}
+.contenido h1{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 42px;
+}
+.contenido p{
+    color: rgba(0, 0, 0, 0.65);
+    text-align: justify;
+    font-size: 25px;
+    
+}
+.motosseleccion{
+    text-align: center;
+
+}
+.motosseleccion img{
+    border: 5px solid;
+    border-radius: 15px;
+    border-color: hsla(0, 0%, 0%, 0.3);
+    transition-duration: 0.9s;
+}
+.motosseleccion img:hover{
+    border: 5px solid;
+    border-radius: 15px;
+    border-color: hsla(0, 0%, 0%, 1);
+    transition-duration: 0.9s;
+}
+.boton_global {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.boton_Vermas {
+    background-color: white; 
+color: black; 
+border: 2px solid gray;
+}
+.boton_Vermas:hover {
+    background-color: #000000;
+    color: white;
+}
+#myDIV{
+    width: 100%;
+    padding: 50px 0;
+    text-align: justify;
+    font-size: 26px;
+    background-color:rgba(48, 88, 176, 0.7);
+    margin-top: 20px;
+    display: none;
+    transition-duration: 1s;
+}
+#myDIV2{
+    width: 100%;
+    padding: 50px 0;
+    text-align: justify;
+    font-size: 26px;
+    background-color:rgba(48, 88, 176, 0.7);
+    margin-top: 20px;
+    display: none;
+    transition-duration: 1s;
+}
+#myDIV3{
+    width: 100%;
+    padding: 50px 0;
+    text-align: justify;
+    font-size: 26px;
+    background-color:rgba(48, 88, 176, 0.7);
+    margin-top: 20px;
+    display: none;
+    transition-duration: 1s;
+}
