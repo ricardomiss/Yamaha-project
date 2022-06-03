@@ -6,3 +6,39 @@
 .contacto h3{
     font-size: 40px;
 }
+.contacto #form_contacto{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacto #form_contacto input{
+    color: black;
+    font-size: 18px ;
+    row-gap: 30px;
+}
+.contacto #form_contacto [type=submit]{
+    background-color: #00BBDE;
+    border: none;
+    padding: 14px 425px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contacto #form_contacto #comentario_contacto{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:black;
+    resize: none;
+
+}
+
+input:invalid {
+    border: 3px solid red;
+}
+
+.formulario_box{
+    border-radius: 5px;
+    padding: 20px;
+    background-color:#DEDEDE;
+}

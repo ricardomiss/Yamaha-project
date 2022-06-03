@@ -12,7 +12,7 @@
         <img src="images/Logo-Yamaha.png" alt="" width="300px" weight="300px">
         <div id="barra_menu" class="barra_menu">
             <ul class="botones_menu">
-                <li><a href="">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="modelo.html">Motos</a>
                     <ul>
                         <li><a href="moto_trabajo.html">Trabajo</a></li>
@@ -24,28 +24,32 @@
                 <li><a href="ini_ses.html">Inicio de Sesion</a>
                     <ul>
                         <li><a href="ini_ses.html">Iniciar Sesion</a></li>
-                        <li><a href="">Registrarse</a></li>
+                        <li><a href="register.html">Registrarse</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
-    <div class="Iniciar_Sesion">
+    <div class="login-box">
         <h2>Login</h2>
-        <form id="formulariologin" name="formulario" method="get">
-            <div class="elemento">
-                <label for="login">Login</label>
-                <input type="text" id="login" name="login" required="true" style="color:black;">
-            </div>
-            <div class="elemento">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required="true" style="color:black ;"><br>
-            </div>
-            <div class="elemento">
-                <input type="submit" value="ENVIAR">
-            </div>
+        <form>
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Usuario</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="">
+            <label>Contraseña</label>
+            <p>No tienes una cuenta?  <a href="register.html"> Registrate</a></p>
+          </div>
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            INICIAR SESION
+          </a>
         </form>
     </div>
-    
 </body>
 </html>

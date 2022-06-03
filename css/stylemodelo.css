@@ -6,7 +6,7 @@ body{
     background-color:#3058b0;
 }
 .cabeza{
-    background-color: white;
+    background-color: #FAFAFA;
     border: 3px solid;
     border-color: rgba(178, 178, 178, .5);
     
@@ -86,7 +86,7 @@ ul, ol{
 }
 .boton_global {
     border: none;
-    color: white;
+    color: #FAFAFA;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
