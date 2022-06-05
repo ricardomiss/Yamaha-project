@@ -32,17 +32,17 @@
     </div>
     <div class="login-box">
         <h2>Login</h2>
-        <form>
+        <form id="form_ini">
           <div class="user-box">
-            <input type="text" name="" required="">
+            <input type="text" name="user" required="">
             <label>Usuario</label>
           </div>
           <div class="user-box">
-            <input type="password" name="" required="">
+            <input type="password" name="password" required="">
             <label>Contraseña</label>
             <p>No tienes una cuenta?  <a href="register.html"> Registrate</a></p>
           </div>
-          <a href="#">
+          <a href="#login" onclick="iniciar_sesion()">
             <span></span>
             <span></span>
             <span></span>
@@ -50,6 +50,8 @@
             INICIAR SESION
           </a>
         </form>
+        <div id="login"></div>
     </div>
+    <script src="js/form.js"></script>
 </body>
 </html>
