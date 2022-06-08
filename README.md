@@ -1,7 +1,7 @@
 # YAMAHA PROJECT
-<sub>Pagina WebApp
-Angel Ricardo Miss Blanco
-Rafael Antonio Castro irineo</sub>
+<sub>Pagina WebApp</sub>
+<sub>Angel Ricardo Miss Blanco</sub>
+<sub>Rafael Antonio Castro irineo</sub>
 
 #### ¿Que es?
 Una pagina WebApp para la venta de motocicletas marca Yamaha, dentro de la Republica Méxicana
