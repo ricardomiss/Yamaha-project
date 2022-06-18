@@ -22,3 +22,33 @@ body{
 .motos_trabajo{
     text-align: center;
 }
+.boton_comprar{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #ffd90f; 
+    color: #5027e3;
+    font-weight: bold;
+    border: 2px solid gray;
+}
+.boton_comprar:hover{
+    background-color:#5027e3;
+    color: white;
+}
+.div_boton{
+    float: right;
+    margin-top: 10px;
+}
+li{
+    font-size: 20px;
+}
+.div-carrito h3{
+    font-size: 30px;
+    
+}

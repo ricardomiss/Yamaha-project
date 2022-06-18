@@ -10,5 +10,17 @@ function boton_contacto() {
 }
 const password = document.getElementById("password")
 function ver_contraseña(){
-    password.value="pito"
+    password.value="test"
+}
+function iniciar_sesion(){
+    const formulario1 = document.forms["form_ini"]
+    let nombre_usuario = formulario1.elements["user"]
+    document.getElementById("login").innerHTML = `Hola, Bienvenido ${nombre_usuario.value}`
+    const resultado_usuario = document.getElementById("login")
+    if (resultado_usuario.style.display === "none") {
+        resultado_usuario.style.display = "block";
+      } else {
+        resultado_usuario.style.display = "none";
+      }
+    
 }
