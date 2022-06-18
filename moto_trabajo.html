@@ -44,7 +44,7 @@
         </div>
         <div id="myDIV">
             Crypton con su motor semiautomático 4 tiempos, hace más fácil su conducción y maniobrabilidad. Una gran motocicleta para la ciudad, o si tu giro es la entrega a domicilio, Crypton es una motocicleta de trabajo para ti ya que ha sido construida pensando en las necesidades de este tipo de negocios. Su práctico diseño le permite tener un consumo mínimo de combustible, además de brindar mayor comodidad y equilibrio que se traducen en seguridad.
-            <div class="div_boton"><a href=""><button class="boton_comprar">COMPRAR🛒</button></a></div>
+            <div class="div_boton"><a href="#comprar_moto"><button class="boton_comprar">COMPRAR🛒</button></a></div>
         </div>
         <br>
         <div id="motos_trabajo" class="motos_trabajo">
@@ -54,7 +54,7 @@
         </div>
         <div id="myDIV2">
             El Equilibrio Perfecto. Siempre encontrarás economía y respaldo en la Nueva YB125 es una motocicleta ideal para el trabajo y los ratos de esparcimiento ya que es una motocicleta con un asiento cómodo y amplio para dos personas, Cuenta con posibilidad de parrilla para aquéllas jornadas laborales. Una motocicleta de económico mantenimiento.
-            <div class="div_boton"><a href=""><button class="boton_comprar">COMPRAR🛒</button></a></div>
+            <div class="div_boton"><a href="#comprar_moto"><button class="boton_comprar">COMPRAR🛒</button></a></div>
         </div>
         <br>
         <div id="motos_trabajo" class="motos_trabajo">
@@ -64,11 +64,27 @@
         </div>
         <div id="myDIV3">
             Nuestra nueva motocicleta YBR125 Express revolucionará el mercado ya que es la mejor y más completa motocicleta de trabajo, sin olvidar su precio por abajo de la competencia. La YBR125 Express cuenta con la parrilla más amplia que cualquiera y gran autonomía de combustible para recorrer largas distancias. Sin duda es la moto para elegir y con la que cubrirás perfectamente las necesidades de tu negocio sin importar el giro.
-            <div class="div_boton"><a href=""><button class="boton_comprar">COMPRAR🛒</button></a></div>
+            <div class="div_boton"><a href="#comprar_moto"><button class="boton_comprar">COMPRAR🛒</button></a></div>
         </div>
-        <br>
+        <div id="div-presupuesto">
+            <p>¿Necesitas checar tu presupuesto?</p>
+            <a href="tienda.html"><button class="boton_comprar">Presupuesto</button></a>
+        </div>
+        <div class="div-carrito"><h3>Carrito de compra🛒</h3>
+            <div id="carrito-compra">
+            </div>
+        </div>
+        <form id="comprar_moto">
+            <select name="motos" id="motos">
+                <option id="modelo" value="t110-crypton">T110 CRYPTON</option>
+                <option id="modelo" value="yb125_roja">YB125</option>
+                <option id="modelo" value="YBR125C-negro">YBR125C</option>
+            </select>
+        </form>
+        <button class="boton_comprar" onclick="comprar()">Agregar al Carrito🛒</button>
+        <button class="boton_comprar" onclick="limpiar_carrito()">Limpiar carrito</button>
     </div>
-    <br>
-    
+    <script src="js/app.js"></script>
+    <script src="js/moto.js"></script>    
 </body>
 </html>

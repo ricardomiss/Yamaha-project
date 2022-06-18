@@ -44,7 +44,7 @@
         </div>
         <div id="myDIV">
             La YAMAHA YBR 125G nace como una motocicleta doble propósito con la capacidad de recorrer caminos asfálticos y de terracería. Se incorporan a esta motocicleta elementos de mejor funcionamiento en aceleración, estabilidad y diseño.
-            <div class="div_boton"><a href=""><button class="boton_comprar">COMPRAR🛒</button></a></div>
+            <div class="div_boton"><a href="#comprar_moto"><button class="boton_comprar">COMPRAR🛒</button></a></div>
         </div>
         <br>
         <div id="motos_trabajo" class="motos_trabajo">
@@ -54,7 +54,7 @@
         </div>
         <div id="myDIV2">
             La XTZ 125, es una motocicleta doble propósito con el diseño y confort que sólo puede entregarte una moto de verdad, tiene encendido eléctrico para una mayor comodidad. Sus gráficos y colores la hacen más atractiva. Con motor 4 tiempos, balanceador de cigüeñal, el cual evita vibraciones en el motor y SOHC que genera menor  ruido y es más eficiente. Suspensión trasera monocross para mayor confort en todo terreno.
-            <div class="div_boton"><a href=""><button class="boton_comprar">COMPRAR🛒</button></a></div>
+            <div class="div_boton"><a href="#comprar_moto"><button class="boton_comprar">COMPRAR🛒</button></a></div>
         </div>
         <br>
         <div id="motos_trabajo" class="motos_trabajo">
@@ -65,11 +65,27 @@
         <div id="myDIV3">
             Dentro de cada uno hay un espíritu aventurero esperando a ser liberado. Cuando la necesidad de salir de la rutina se hace irresistible, esta motocicleta de alta tecnología está siempre lista para llevarte a cualquier lugar.
             Todos los aspectos de este modelo de aventura se ha diseñado para llevarte más allá de donde alcanza tu imaginación. Con un potente motor de 1199 cc y un robusto chasis con suspensión ajustable electrónicamente, la Super Ténéré está lista para emocionarte al máximo tanto en autovía como en un revirado sendero.
-            <div class="div_boton"><a href=""><button class="boton_comprar">COMPRAR🛒</button></a></div>
+            <div class="div_boton"><a href="#comprar_moto"><button class="boton_comprar">COMPRAR🛒</button></a></div>
         </div>
-        <br>
+        <div id="div-presupuesto">
+            <p>¿Necesitas checar tu presupuesto?</p>
+            <a href="tienda.html"><button class="boton_comprar">Presupuesto</button></a>
+        </div>
+        <div class="div-carrito"><h3>Carrito de compra🛒</h3>
+            <div id="carrito-compra">
+            </div>
+        </div>
+        <form id="comprar_moto">
+            <select name="motos" id="motos">
+                <option id="modelo" value="YBR125C-negro">YBR125G</option>
+                <option id="modelo" value="xtz125e_azul">XTZ125E</option>
+                <option id="modelo" value="SuperTenere1200ZE">Super Tenere 1200 ZE</option>
+            </select>
+        </form>
+        <button class="boton_comprar" onclick="comprar()">Agregar al Carrito🛒</button>
+        <button class="boton_comprar" onclick="limpiar_carrito()">Limpiar carrito</button>
     </div>
-    <br>
-    
+    <script src="js/app.js"></script>
+    <script src="js/moto.js"></script> 
 </body>
 </html>
